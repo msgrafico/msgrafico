@@ -1,0 +1,93 @@
+<!DOCTYPE>
+<html>
+<head>
+<style>
+table {
+  width: 100%;
+  position: sticky;
+  top:0;
+}
+#menu {
+  font-family: arial;
+  font-size: 18px;
+  width: 10%;
+  height:50px;
+  background-color: white;
+  color:#FFC627;
+  text-align:center;
+}
+
+#menu:hover{
+  background-color: #73c8b6;
+  color:white;
+}
+#menu:active{
+  color:#white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #FFC627;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  color: #ffffff
+ }
+.dropdown-content a:hover {background-color: #73c8b6
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+</style>
+  <title>MS Diseño Grafico</title>
+<link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+</head>
+<body>
+<img id=logo src=imagenes/logo.png width= 200px>
+<table>
+  <tr>
+    <td id=menu><a href=INDEX.html>Inicio</a></td>
+    <td id=menu><a href=Diseñadores.html>Diseñadores</a></td>
+    <td id=menu><a href=editorial.html>Diseño Editorial</a></td>
+    <td id=menu><a href=Ilustracion.html>Ilustración</a></td>
+    <td id=menu><a href=foto.html class="dropbtn">Fotografía</a></td>
+    <td id=menu><a href=corporativa.html>Imagen Corporativa</a></td>
+    <td id=menu><a href=motion.html>Motion Graphics</a></td>
+    <td id=menu class="dropdown"><a href=Mas.html class="dropbtn">Más</a>
+    <div class=dropdown-content>
+      <a href=colores.html>Colores</a>
+      <a href=tipo.html>Tipografía</a>
+      <a href=serigrafia.html>Serigrafía</a>
+    </div>
+    </td>
+</table>
+<br></br>
+<h1>Tipografía</h1>
+<br></br>
+<img id=tipo src=imagenes/tipo5.png width= 1000px>
+<br></br>
+<div class="pagination">
+
+<a href=tipo.html >1</a>
+<a href=tipo2.html >2</a>
+<a href=tipo3.html>3</a>
+<a href=tipo4.html>4</a>
+<a href=tipo5.html class="active">5</a>
+
+</div>
+<br></br><br></br><br></br>
+
+    <div id=pie> &#169;2018 MS Diseño Gráfico </div>
+</body>
+</html>

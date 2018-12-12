@@ -1,0 +1,138 @@
+<!DOCTYPE>
+<html>
+<head>
+<style>
+table {
+  width: 100%;
+  
+}
+#menu {
+  font-family: arial;
+  font-size: 18px;
+  width: 10%;
+  height:50px;
+  background-color: white;
+  color:#FFC627;
+  text-align:center;
+}
+
+#menu:hover{
+  background-color: #73c8b6;
+  color:white;
+}
+#menu:active{
+  color:#white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #FFC627;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  color: #ffffff
+ }
+.dropdown-content a:hover {background-color: #73c8b6
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#info{
+
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#cmyk{
+  padding-left: 200px;
+}
+.pagination1 {
+  display: inline-block;
+  padding-left: 1000px;
+
+  }
+
+</style>
+  <title>MS Diseño Grafico</title>
+<link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+</head>
+<body>
+<img id=logo src=imagenes/logo.png width= 200px>
+<table>
+  <tr>
+    <td id=menu><a href=INDEX.html>Inicio</a></td>
+    <td id=menu><a href=Diseñadores.html>Diseñadores</a></td>
+    <td id=menu><a href=editorial.html>Diseño Editorial</a></td>
+    <td id=menu><a href=Ilustracion.html>Ilustración</a></td>
+    <td id=menu><a href=foto.html class="dropbtn">Fotografía</a></td>
+    <td id=menu><a href=corporativa.html>Imagen Corporativa</a></td>
+    <td id=menu><a href=motion.html>Motion Graphics</a></td>
+    <td id=menu class="dropdown"><a href=Mas.html class="dropbtn">Más</a>
+    <div class=dropdown-content>
+      <a href=colores.html>Colores</a>
+      <a href=tipo.html>Tipografía</a>
+      <a href=serigrafia.html>Serigrafía</a>
+    </div>
+    </td>
+</table>
+<br></br>
+<h1>Colores</h1>
+<br></br>
+<p id=textcolor>A la hora de realizar un diseño se debe saber el modelo de color que se va a utilizar, RGB o CMYK, y eso depende si será digital o impreso.<br>
+Cada uno de ellos es para un medio o soporte diferente. No se deben utilizar de forma aleatoria.<br>
+El formato de color RGB es el correcto para usar en monitores de ordenadores, páginas webs, televisión, es decir, soportes digitales<br>
+ mientras que los colores CMYK se utilizan para materiales impresos como flyers, poster, tarjetas de visitas, carteles, gran formato, etc.</br></p>
+ <br></br>
+
+
+ <br></br>
+  <table id=info>
+    <tr>
+      <td><h3>RGB</h3></td>
+      <td><h3>CMYK</h3></td>
+    </tr>
+    <tr>
+      <td id=textcmyk>Se utilizan tres colores primarios rojo (Red), verde (Green), y azul (Blue).<br>
+Es un modelo basado en la “síntesis aditiva” esto quiere decir que: es posible <br> representar
+cualquier color por medio de la suma de los tres básicos. Y si se <BR> sobreponen todos se obtiene el color blanco.</br>
+</td>
+      <td id=textcmyk>Es conocida como cuadricromía. Cian (Cyan), magenta (Magenta),<BR>
+        amarillo (Yellow) y negro (Key black).Cuando se habla de CMYK se <BR>
+        refiere a un modelo de color sustractivo, es decir, un modelo contrario <BR>
+           al RGB: ya que el color se obtiene por medio de la diferente luminosidad <BR>
+              de cada tono.</BR>
+</td>
+    </tr>
+    <tr>
+
+<td id=cmyk colspan="2"> <img src=imagenes/cmyk.png width= 800px>
+</td>
+    </tr>
+  </table>
+<br></br><br></br><br></br>
+  <div class="pagination">
+
+<a href=colores.html class="active">1</a>
+<a href=significado.html>2</a>
+
+
+</div>
+
+
+  <br></br><br></br>
+
+      <div id=pie> &#169;2018 MS Diseño Gráfico </div>
+
+  </body>
+  </html>

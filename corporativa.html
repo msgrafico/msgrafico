@@ -1,0 +1,103 @@
+<!DOCTYPE>
+<html>
+<head>
+<style>
+table {
+  width: 100%;
+
+}
+#menu {
+  font-family: arial;
+  font-size: 18px;
+  width: 10%;
+  height:50px;
+  background-color: white;
+  color:#FFC627;
+  text-align:center;
+}
+
+#menu:hover{
+  background-color: #73c8b6;
+  color:white;
+}
+#menu:active{
+  color:#white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #FFC627;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  color: #ffffff
+ }
+.dropdown-content a:hover {background-color: #73c8b6
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#pdf{
+  padding-left: 180px;
+}
+</style>
+  <title>MS Diseño Grafico</title>
+<link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+</head>
+<body>
+<img id=logo src=imagenes/logo.png width= 200px>
+<table>
+  <tr>
+    <td id=menu><a href=INDEX.html>Inicio</a></td>
+    <td id=menu><a href=Diseñadores.html>Diseñadores</a></td>
+    <td id=menu><a href=editorial.html>Diseño Editorial</a></td>
+    <td id=menu><a href=Ilustracion.html>Ilustración</a></td>
+    <td id=menu><a href=foto.html>Fotografía</a></td>
+    <td id=menu><a href=corporativa.html>Imagen Corporativa</a></td>
+    <td id=menu><a href=motion.html>Motion Graphics</a></td>
+    <td id=menu class="dropdown"><a href=Mas.html class="dropbtn">Más</a>
+    <div class=dropdown-content>
+      <a href=colores.html>Colores</a>
+      <a href=tipo.html>Tipografía</a>
+      <a href=serigrafia.html>Serigrafía</a>
+    </div>
+    </td>
+</table>
+<br></br>
+<h1>Imagen Corporativa</h1>
+  <p id=textilu>Es el conjunto de creencias, actitudes y percepciones que tienen los públicos sobre una empresa o marca.<br>
+Los factores principales que influyen en la formación de la imagen corporativa de cualquier compañía son:<br></br>
+<b id=puntos>Identificación con la marca.<br>
+Identificación de productos y servicios.<br>
+Aumento del valor percibido.<br>
+Establece un vínculo emocional.<br>
+Fortalece la marca.</b><br>
+</p></br>
+<iframe id=pdf src=pdf/coca.pdf width="1000" height="630" style="border: none;"></iframe>
+<br></br><br></br>
+
+<div class="pagination">
+
+<a href=corporativa.html class="active">1</a>
+<a href=corporativa2.html>2</a>
+<a href=corporativa3.html>3</a>
+<a href=corporativa4.html>4</a>
+<a href=corporativa5.html>5</a>
+<a href=corporativa6.html>6</a>
+
+</div>
+<br></br>
+<div id=pie> &#169;2018 MS Diseño Gráfico </div>
+</body>
+</html>
